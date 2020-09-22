@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(18, 18, 20);
+}
+
+h2{
+    text-align: center;
+    color: rgb(0, 255, 94);
+    padding: 8px;
+}
+
+.bg{
+    display: none;
+}
+
+.btn-close{
+    border: 10px solid rgb(18, 18, 20);
+    background-color: rgb(0, 255, 94);
+    text-align: center;
+    padding: 6px;
+    height: 50px;
+    width: 50px;
+    float: right;
+    top: 30px;
+    left: 15px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+fieldset{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(32, 32, 36);
+    border: rgb(0, 0, 0) 0px solid;  
+    border-radius: 10px;
+    text-align: center;
+}
+
+fieldset input{
+    width: 70%;
+    height: 35px;
+    outline: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgba(18, 18, 20);
+    border: 0; 
+    padding: 5px;
+    color: #ccc;
+    margin-bottom: 10px;   
+}
+
+fieldset a{
+    color: rgb(82, 82, 82);
+    font-size: 12px;
+    display: block;
+}
+
+fieldset input:focus{
+    border-bottom: 1px solid rgb(0, 255, 94);
+}
+
+fieldset input[type=submit]{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:rgb(0, 255, 94);
+    color: black;
+    font-weight: 300;
+    border: 0;
+    border-radius: 5px;
+}
+
+fieldset input[type=submit]:hover{
+    background-color: rgb(33, 172, 84);
+    transition: 0.5s;
+
+}
+
+.icons span{
+    text-align: center;
+    display: block;
+    color: rgb(82, 82, 82);
+}
+
+.icons a{
+    font-size: 30px;
+    color: rgb(0, 255, 94);
+    margin-top: 10px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.contact input[type=button]{
+    background-color:rgb(0, 255, 94);
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    outline: 0;
+    border: 2px solid  black;
+    cursor: pointer;
+    height: 60px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.line{
+    width: 90%;
+    height: 1px;
+    background-color: rgb(56, 53, 53);
+    margin: 0 auto;
+}
+
+
+
+
