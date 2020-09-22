@@ -27,6 +27,10 @@ h2{
     display: none;
 }
 
+input[type=submit], input[type=Reset]{
+    -webkit-appearance: none;
+}
+
 .btn-close{
     border: 10px solid rgb(18, 18, 20);
     background-color: rgb(0, 255, 94);
@@ -72,6 +76,7 @@ fieldset a{
 
 fieldset input:focus{
     border-bottom: 1px solid rgb(0, 255, 94);
+    -webkit-appearance: none;
 }
 
 fieldset input[type=submit]{
@@ -82,11 +87,13 @@ fieldset input[type=submit]{
     font-weight: 300;
     border: 0;
     border-radius: 5px;
+    -webkit-appearance: none;
 }
 
 fieldset input[type=submit]:hover{
     background-color: rgb(33, 172, 84);
     transition: 0.5s;
+    -webkit-appearance: none;
 
 }
 
