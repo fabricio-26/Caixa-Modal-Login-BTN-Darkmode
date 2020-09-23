@@ -71,13 +71,8 @@ fieldset input{
 fieldset i{
     position: absolute;
     z-index: 11;
-    color: rgb(0, 255, 94);
-    
-    
-    
+    color: rgb(0, 255, 94);    
 }
-
-
 
 .input-name{
     position: relative;
@@ -165,6 +160,26 @@ fieldset input[type=submit]:hover{
     height: 1px;
     background-color: rgb(56, 53, 53);
     margin: 0 auto;
+}
+
+
+.button{
+
+    margin-top: 50px;
+    color: white;
+    background-color: #ccc;
+    width: 55px;
+    height: 18px;
+    border-radius: 10px;
+    position: relative;
+    float: right;
+}
+.cicle{
+    width: 20px;
+    height: 21px;
+    margin-top: -2px;
+    background-color: rgb(1, 255, 77);
+    border-radius: 10px;
 }
 
 
