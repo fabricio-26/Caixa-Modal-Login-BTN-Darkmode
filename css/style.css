@@ -164,7 +164,6 @@ fieldset input[type=submit]:hover{
 
 
 .button{
-
     margin-top: 50px;
     color: white;
     background-color: #ccc;
@@ -173,6 +172,7 @@ fieldset input[type=submit]:hover{
     border-radius: 10px;
     position: relative;
     float: right;
+    cursor: pointer;
 }
 .cicle{
     width: 20px;
@@ -180,6 +180,7 @@ fieldset input[type=submit]:hover{
     margin-top: -2px;
     background-color: rgb(1, 255, 77);
     border-radius: 10px;
+    
 }
 
 
