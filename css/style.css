@@ -172,7 +172,7 @@ fieldset input[type=submit]:hover{
     border-radius: 10px;
     position: relative;
     float: right;
-    cursor: pointer;
+    
 }
 .cicle{
     width: 20px;
