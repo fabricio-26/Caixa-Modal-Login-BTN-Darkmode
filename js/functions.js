@@ -6,6 +6,12 @@ $(function(){
        
     })
 
+    $('.link-login').click(function(){
+        $('.active-cadastro').fadeOut(1);
+        $('.bg').fadeIn() 
+       
+    })
+
     botaoDeFecharClose();
     function botaoDeFecharClose(){
         $('.btn-close').click(function(){
