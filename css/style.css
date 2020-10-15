@@ -47,7 +47,7 @@ input[type=submit], input[type=Reset]{
 }
 
 fieldset{
-    height: 300px;
+    height: 400px;
     width: 300px;
     background-color: rgb(32, 32, 36);
     border: rgb(0, 0, 0) 0px solid;  
@@ -182,6 +182,88 @@ fieldset input[type=submit]:hover{
     border-radius: 10px;
     
 }
+
+
+
+
+
+
+
+.active-cadastro{
+    display: none;
+}
+
+fieldset.cadastro{
+    height: 500px;
+}
+
+
+
+.container1{
+    transform: translate(-50%,-50%);
+    top: 5%;
+    left:50%;
+    position: relative;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=radio]{
+    display: none;
+}
+
+label{
+    color: #ccc;
+    position: relative;
+    font-family: 'poppins',sans-serif;
+    font-size: 13px;
+    border: 2px solid rgb(32, 32, 36);
+    border-radius: 5px;
+    padding: 7px 1px;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    
+    
+  
+}
+
+label:nth-of-type(2){
+    margin-left: 10px;
+}
+
+label:before{
+    content: "";
+    height: 16px;
+    width: 16px;
+    border: 2px solid rgb(26, 25, 25);
+    border-radius: 50%;
+    margin-right: 17px;
+  
+}
+
+input[type=radio]:checked + label{
+    background-color: rgb(41, 41, 43);
+    color: rgb(255, 255, 255);
+    
+    
+    
+    
+}
+
+input[type=radio]:checked + label:before{
+    height: 8px;
+    width: 8px;
+    border: 8px solid rgb(1, 255, 77);
+    margin-left: 9px;
+    
+  
+} 
+
+
+
 
 
 

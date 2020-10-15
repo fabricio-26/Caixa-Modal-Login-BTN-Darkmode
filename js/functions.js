@@ -13,6 +13,15 @@ $(function(){
         })
     }
 
+    cadastrar();
+    function cadastrar(){
+        $('.cadastra').Click(function(){
+            $('.bg').fadeOut(1)
+            $('.active-cadastro').fadeIn()
+
+        })
+    }
+
     var cliked;
     btnDarkmode()
     function btnDarkmode(){
