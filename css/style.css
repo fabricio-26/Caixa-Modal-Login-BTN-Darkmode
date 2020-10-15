@@ -47,7 +47,7 @@ input[type=submit], input[type=Reset]{
 }
 
 fieldset{
-    height: 400px;
+    height: 310px;
     width: 300px;
     background-color: rgb(32, 32, 36);
     border: rgb(0, 0, 0) 0px solid;  
