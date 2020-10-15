@@ -3,6 +3,7 @@ $(function(){
     $('input[type=button]').click(function(){
         $('input[type=button]').fadeOut(1)
         $('.bg').fadeIn() 
+       
     })
 
     botaoDeFecharClose();
@@ -13,11 +14,19 @@ $(function(){
         })
     }
 
+    voltarClose();
+    function voltarClose(){
+        $('.vlt').click(function(){
+            $('.active-cadastro').fadeOut(1)
+            $('input[type=button]').fadeIn()
+        })
+    }
+
     cadastrar();
     function cadastrar(){
-        $('.cadastra').Click(function(){
-            $('.bg').fadeOut(1)
-            $('.active-cadastro').fadeIn()
+        $('.cad').click(function(){
+            $('.bg').fadeOut(000);
+            $('.active-cadastro').fadeIn();
 
         })
     }
